@@ -1,11 +1,4 @@
 export { ArgumentNotObservableError } from './argument-not-observable-error';
-export {
-  CoalesceConfig,
-  CoalescingContext,
-  getCoalesceWorkConfig,
-  isScheduling,
-  coalesceWork,
-} from './coalesce-work';
 export { getChangeDetectionHandler } from './get-change-detection-handling';
 export { getGlobalThis } from './get-global-this';
 export {
