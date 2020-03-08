@@ -7,7 +7,7 @@ import {
 
 export function toObservableValue<T>(
   potentialObservableValue$: Observable<T> | Promise<T> | undefined | null
-): Observable<T | undefined | null> {
+): Observable<T | undefined | null | any> {
   if (
     potentialObservableValue$ === undefined ||
     // @NOTICE This check is here to mirror the async pipes behaviour
